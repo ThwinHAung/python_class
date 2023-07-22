@@ -1,0 +1,8 @@
+#find character in a sentence and count until user enter 0
+sentence = input('Enter a sentence:')
+character = input('Enter a character:')
+if character in sentence:
+    value = sentence.count(character)
+    print(f'Total number of character o in this sentence = {value}')
+else:
+    print('The character is not in the sentence')
